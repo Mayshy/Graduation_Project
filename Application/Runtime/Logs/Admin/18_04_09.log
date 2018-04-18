@@ -1,0 +1,798 @@
+[ 2018-04-09T09:12:58+08:00 ] ::1 /mingjin/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002098s ]
+
+[ 2018-04-09T09:15:25+08:00 ] ::1 /mingjin/admin.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `admin` WHERE `account` = 'ASD' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2018-04-09T09:15:26+08:00 ] ::1 /mingjin/admin.php/Index/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `user` ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2018-04-09T09:15:26+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+
+[ 2018-04-09T09:15:28+08:00 ] ::1 /mingjin/admin.php/Index/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `user` ORDER BY id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2018-04-09T09:15:28+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001476s ]
+
+[ 2018-04-09T09:15:34+08:00 ] ::1 /mingjin/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2018-04-09T09:15:40+08:00 ] ::1 /mingjin/admin.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `admin` WHERE `account` = 'ASD' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2018-04-09T09:15:41+08:00 ] ::1 /mingjin/admin.php/Index/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `user` ORDER BY id desc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2018-04-09T09:15:41+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2018-04-09T09:15:43+08:00 ] ::1 /mingjin/admin.php/Index/manager.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `admin` ORDER BY id desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2018-04-09T09:15:43+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2018-04-09T09:15:44+08:00 ] ::1 /mingjin/admin.php/Index/anjian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2018-04-09T09:15:44+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-04-09T09:15:47+08:00 ] ::1 /mingjin/admin.php/Index/addanjian/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2018-04-09T09:15:47+08:00 ] ::1 /mingjin/admin.php/Index/addanjian/id/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2018-04-09T09:15:50+08:00 ] ::1 /mingjin/admin.php/Index/addanjianinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `anjian` [ RunTime:0.0025s ]
+SQL: INSERT INTO `anjian` (`name`,`uid`) VALUES ('1233','3') [ RunTime:0.0626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2018-04-09T09:15:51+08:00 ] ::1 /mingjin/admin.php/Index/addanjian/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2018-04-09T09:15:52+08:00 ] ::1 /mingjin/admin.php/Index/addanjian/id/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2018-04-09T09:15:53+08:00 ] ::1 /mingjin/admin.php/Index/anjian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `user` ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2018-04-09T09:15:53+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+
+[ 2018-04-09T09:15:55+08:00 ] ::1 /mingjin/admin.php/Index/anjianshow/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `anjian` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `anjian` WHERE `uid` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: password E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\115847f76662114209badeff5d647a0d.php 第 62 行.
+NOTIC: [8] Undefined index: phone E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\115847f76662114209badeff5d647a0d.php 第 63 行.
+NOTIC: [8] Undefined index: address E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\115847f76662114209badeff5d647a0d.php 第 64 行.
+NOTIC: [8] Undefined index: password E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\115847f76662114209badeff5d647a0d.php 第 62 行.
+NOTIC: [8] Undefined index: phone E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\115847f76662114209badeff5d647a0d.php 第 63 行.
+NOTIC: [8] Undefined index: address E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\115847f76662114209badeff5d647a0d.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2018-04-09T09:15:55+08:00 ] ::1 /mingjin/admin.php/Index/anjianshow/id/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2018-04-09T09:16:02+08:00 ] ::1 /mingjin/admin.php/Index/anjian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `user` ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2018-04-09T09:16:02+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+
+[ 2018-04-09T09:16:05+08:00 ] ::1 /mingjin/admin.php/Index/anjianshow/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `anjian` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `anjian` WHERE `uid` = 3  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Undefined index: password E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\115847f76662114209badeff5d647a0d.php 第 62 行.
+NOTIC: [8] Undefined index: phone E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\115847f76662114209badeff5d647a0d.php 第 63 行.
+NOTIC: [8] Undefined index: address E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\115847f76662114209badeff5d647a0d.php 第 64 行.
+NOTIC: [8] Undefined index: password E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\115847f76662114209badeff5d647a0d.php 第 62 行.
+NOTIC: [8] Undefined index: phone E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\115847f76662114209badeff5d647a0d.php 第 63 行.
+NOTIC: [8] Undefined index: address E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\115847f76662114209badeff5d647a0d.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2018-04-09T09:16:05+08:00 ] ::1 /mingjin/admin.php/Index/anjianshow/id/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2018-04-09T09:20:13+08:00 ] ::1 /mingjin/admin.php/Index/manager.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `admin` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2018-04-09T09:20:13+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2018-04-09T09:20:16+08:00 ] ::1 /mingjin/admin.php/Index/anjian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2018-04-09T09:20:16+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2018-04-09T09:20:23+08:00 ] ::1 /mingjin/admin.php/Index/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `user` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2018-04-09T09:20:23+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2018-04-09T09:20:26+08:00 ] ::1 /mingjin/admin.php/Index/userinfo/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2018-04-09T09:20:26+08:00 ] ::1 /mingjin/admin.php/Index/userinfo/id/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2018-04-09T09:20:29+08:00 ] ::1 /mingjin/admin.php/Index/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2018-04-09T09:20:30+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+
+[ 2018-04-09T09:20:31+08:00 ] ::1 /mingjin/admin.php/Index/manager.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `admin` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2018-04-09T09:20:31+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+
+[ 2018-04-09T09:20:35+08:00 ] ::1 /mingjin/admin.php/Index/anjian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `user` ORDER BY id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2018-04-09T09:20:35+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+
+[ 2018-04-09T09:20:36+08:00 ] ::1 /mingjin/admin.php/Index/manager.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin` ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2018-04-09T09:20:36+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2018-04-09T09:20:37+08:00 ] ::1 /mingjin/admin.php/Index/anjian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2018-04-09T09:20:37+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2018-04-09T09:20:40+08:00 ] ::1 /mingjin/admin.php/Index/pingjia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `user` ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2018-04-09T09:20:40+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+
+[ 2018-04-09T09:20:44+08:00 ] ::1 /mingjin/admin.php/Index/tousu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `toushu` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `toushu`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT `id`,`name` FROM `user`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: value E:\WAMPP\htdocs\mingjin\Application\Admin\Controller\IndexController.class.php 第 344 行.
+NOTIC: [8] Undefined variable: value E:\WAMPP\htdocs\mingjin\Application\Admin\Controller\IndexController.class.php 第 344 行.
+NOTIC: [8] Undefined variable: value E:\WAMPP\htdocs\mingjin\Application\Admin\Controller\IndexController.class.php 第 344 行.
+NOTIC: [8] Undefined variable: value E:\WAMPP\htdocs\mingjin\Application\Admin\Controller\IndexController.class.php 第 344 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined index: password E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 62 行.
+NOTIC: [8] Undefined index: phone E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 63 行.
+NOTIC: [8] Undefined index: address E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 64 行.
+NOTIC: [8] Undefined index: password E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 62 行.
+NOTIC: [8] Undefined index: phone E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 63 行.
+NOTIC: [8] Undefined index: address E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 64 行.
+NOTIC: [8] Undefined index: password E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 62 行.
+NOTIC: [8] Undefined index: phone E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 63 行.
+NOTIC: [8] Undefined index: address E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 64 行.
+NOTIC: [8] Undefined index: password E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 62 行.
+NOTIC: [8] Undefined index: phone E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 63 行.
+NOTIC: [8] Undefined index: address E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2018-04-09T09:20:44+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+
+[ 2018-04-09T09:20:50+08:00 ] ::1 /mingjin/admin.php/Index/tousu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `toushu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `toushu`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0038s ]
+SQL: SELECT `id`,`name` FROM `user`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: value E:\WAMPP\htdocs\mingjin\Application\Admin\Controller\IndexController.class.php 第 344 行.
+NOTIC: [8] Undefined variable: value E:\WAMPP\htdocs\mingjin\Application\Admin\Controller\IndexController.class.php 第 344 行.
+NOTIC: [8] Undefined variable: value E:\WAMPP\htdocs\mingjin\Application\Admin\Controller\IndexController.class.php 第 344 行.
+NOTIC: [8] Undefined variable: value E:\WAMPP\htdocs\mingjin\Application\Admin\Controller\IndexController.class.php 第 344 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined index: password E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 62 行.
+NOTIC: [8] Undefined index: phone E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 63 行.
+NOTIC: [8] Undefined index: address E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 64 行.
+NOTIC: [8] Undefined index: password E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 62 行.
+NOTIC: [8] Undefined index: phone E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 63 行.
+NOTIC: [8] Undefined index: address E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 64 行.
+NOTIC: [8] Undefined index: password E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 62 行.
+NOTIC: [8] Undefined index: phone E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 63 行.
+NOTIC: [8] Undefined index: address E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 64 行.
+NOTIC: [8] Undefined index: password E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 62 行.
+NOTIC: [8] Undefined index: phone E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 63 行.
+NOTIC: [8] Undefined index: address E:\WAMPP\htdocs\mingjin\Application\Runtime\Cache\Admin\6a6a16367fd9a3615e9874de7e351384.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2018-04-09T09:20:50+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2018-04-09T09:31:20+08:00 ] ::1 /mingjin/admin.php/Index/pingjia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2018-04-09T09:31:20+08:00 ] ::1 /mingjin/admin.php/Index/images/dclogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+

@@ -1,0 +1,33 @@
+<include file="Public/head" />
+
+<div id="dcMain">
+   <!-- 当前位置 -->
+<div id="urHere">DouPHP 管理中心<b>></b><strong>评价管理</strong> </div>   <div id="manager" class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
+    <h3>民警评价</h3>
+        <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+     <tr>
+      <th width="30" align="center">编号</th>
+      <th align="center">成员名称</th>
+      <th align="center">账号</th>
+      <th align="center">密码</th>
+      <th align="center">联系电话</th>
+       <th align="center">联系地址</th>
+      <th align="center">操作</th>
+     </tr>
+      
+        <volist name='list' id='vo'>
+          <tr>
+            <td align="center">{$vo.id}</td>
+            <td align="center">{$vo.name}</td>
+            <td align="center">{$vo.account}</td>
+            <td align="center">{$vo.password}</td>
+            <td align="center">{$vo.phone}</td>
+            <td align="center">{$vo.address}</td>
+            <td align="center"><a href="{:U('Index/addpingjia',array('id'=>$vo['id']))}">添加评价 | <a href="{:U('Index/pingjiashow',array('id'=>$vo['id']))}">查看</a></td>
+           </tr>
+        </volist>
+         </table>
+         </div>
+ </div>
+<include file="Public/foot" />
+<include file="Public/foot" />
